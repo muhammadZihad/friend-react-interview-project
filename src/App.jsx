@@ -4,7 +4,7 @@ import UserList from "./components/UserList";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container page-contents pt-5">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<UserList />} />
